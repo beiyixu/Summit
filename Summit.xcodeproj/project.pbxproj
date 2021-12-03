@@ -14,6 +14,12 @@
 		0619407427572C8C001AED69 /* SummitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0619407327572C8C001AED69 /* SummitTests.swift */; };
 		0619407E27572C8C001AED69 /* SummitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0619407D27572C8C001AED69 /* SummitUITests.swift */; };
 		0619408027572C8C001AED69 /* SummitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0619407F27572C8C001AED69 /* SummitUITestsLaunchTests.swift */; };
+		06DF4DFB2757D35B0044595F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DF4DFA2757D35B0044595F /* Colors.swift */; };
+		06DF4DFE275819390044595F /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DF4DFD275819390044595F /* Logo.swift */; };
+		06DF4E00275829960044595F /* SummitScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DF4DFF275829960044595F /* SummitScreen.swift */; };
+		06DF4E022758710B0044595F /* BeizerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DF4E012758710B0044595F /* BeizerHelper.swift */; };
+		06DF4E04275871C90044595F /* Mountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DF4E03275871C90044595F /* Mountain.swift */; };
+		06DF4E08275882200044595F /* MountainLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DF4E07275882200044595F /* MountainLogo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,13 @@
 		0619407927572C8C001AED69 /* SummitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0619407D27572C8C001AED69 /* SummitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummitUITests.swift; sourceTree = "<group>"; };
 		0619407F27572C8C001AED69 /* SummitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06D1F1F7275991A00086B50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06DF4DFA2757D35B0044595F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		06DF4DFD275819390044595F /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		06DF4DFF275829960044595F /* SummitScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummitScreen.swift; sourceTree = "<group>"; };
+		06DF4E012758710B0044595F /* BeizerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeizerHelper.swift; sourceTree = "<group>"; };
+		06DF4E03275871C90044595F /* Mountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mountain.swift; sourceTree = "<group>"; };
+		06DF4E07275882200044595F /* MountainLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainLogo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +109,10 @@
 			children = (
 				0619406227572C89001AED69 /* SummitApp.swift */,
 				0619406427572C89001AED69 /* ContentView.swift */,
+				06DF4DFF275829960044595F /* SummitScreen.swift */,
+				06DF4DFC275819240044595F /* Tools */,
 				0619406627572C8C001AED69 /* Assets.xcassets */,
+				06D1F1F7275991A00086B50D /* Info.plist */,
 				0619406827572C8C001AED69 /* Preview Content */,
 			);
 			path = Summit;
@@ -125,6 +141,18 @@
 				0619407F27572C8C001AED69 /* SummitUITestsLaunchTests.swift */,
 			);
 			path = SummitUITests;
+			sourceTree = "<group>";
+		};
+		06DF4DFC275819240044595F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				06DF4DFD275819390044595F /* Logo.swift */,
+				06DF4E012758710B0044595F /* BeizerHelper.swift */,
+				06DF4E03275871C90044595F /* Mountain.swift */,
+				06DF4E07275882200044595F /* MountainLogo.swift */,
+				06DF4DFA2757D35B0044595F /* Colors.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +286,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0619406527572C89001AED69 /* ContentView.swift in Sources */,
+				06DF4E08275882200044595F /* MountainLogo.swift in Sources */,
+				06DF4E022758710B0044595F /* BeizerHelper.swift in Sources */,
+				06DF4DFB2757D35B0044595F /* Colors.swift in Sources */,
+				06DF4E04275871C90044595F /* Mountain.swift in Sources */,
+				06DF4E00275829960044595F /* SummitScreen.swift in Sources */,
+				06DF4DFE275819390044595F /* Logo.swift in Sources */,
 				0619406327572C89001AED69 /* SummitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,14 +451,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Summit/Preview Content\"";
 				DEVELOPMENT_TEAM = KBWVP7PS8A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Summit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -432,11 +467,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Summit.Summit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lighthouseappdevelopment.summittravel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -446,14 +481,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Summit/Preview Content\"";
 				DEVELOPMENT_TEAM = KBWVP7PS8A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Summit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -461,11 +497,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Summit.Summit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lighthouseappdevelopment.summittravel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
