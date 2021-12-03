@@ -6,13 +6,26 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
     
+    @State var showSplash = true
     
     var body: some View {
-        
-        SummitScreen().background(Color(.darkBlue))
+        ZStack {
+        MapView(coordinate: CLLocationCoordinate2DMake(39.5029861, -106.1557894))
+              .edgesIgnoringSafeArea(.all)
+        SummitScreen().opacity(showSplash ? 1 : 0)
+                .onAppear {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 5.5) {
+                      SummitScreen.shouldAnimate = false
+                      withAnimation() {
+                      self.showSplash = false
+                    }
+                  }
+              }
+        }
     }
 }
 
