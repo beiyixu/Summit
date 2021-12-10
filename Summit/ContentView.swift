@@ -14,8 +14,7 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-        MapView(coordinate: CLLocationCoordinate2DMake(39.5029861, -106.1557894))
-              .edgesIgnoringSafeArea(.all)
+        HotelContent()
         SummitScreen().opacity(showSplash ? 1 : 0)
                 .onAppear {
                     DispatchQueue.main.asyncAfter(deadline: .now() + 5.5) {
