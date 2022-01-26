@@ -70,6 +70,102 @@
     "phoneNumbers": [
         "+19704964500"
     ]
+  },
+  {
+    "name": "Hotel Frisco Colorado",
+    "starRating": 3.9,
+    "description": {
+        "short": "This fictional example hotel 2"
+    },
+    "address": {
+        "line1": "308 E Main St",
+        "city": "Frisco",
+        "postalCode": "80443",
+        "region": "CO",
+        "country": "US",
+        "countryName": "United States"
+    },
+    "location": {
+        "longitude": 39.5783084,
+        "latitude": -106.1121851
+    },
+    "websiteUrl": "http://www.hotelfrisco.com/",
+    "images": "https://images.unsplash.com/photo-1630404356140-3825a5f74992?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+    "phoneNumbers": [
+        "+19702938787"
+    ]
+  },
+  {
+    "name": "Keystone Lodge and Spa",
+    "starRating": 4.5,
+    "description": {
+        "short": "This fictional example hotel 3"
+    },
+    "address": {
+        "line1": "22101 US-6",
+        "city": "Dillon",
+        "postalCode": "80435",
+        "region": "CO",
+        "country": "US",
+        "countryName": "United States"
+    },
+    "location": {
+        "longitude": 39.5866046,
+        "latitude": -106.1085932
+    },
+    "images": "https://images.unsplash.com/photo-1610865383566-6469eedeb76f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80",
+    "websiteUrl": "http://www.keystoneresort.com/plan-a-vacation/lodging/lodging-details.aspx?code=keystone-lodge-hotel",
+    "phoneNumbers": [
+        "+19704964500"
+    ]
+  },
+  {
+    "name": "Hotel Frisco Colorado",
+    "starRating": 3.9,
+    "description": {
+        "short": "This fictional example hotel 2"
+    },
+    "address": {
+        "line1": "308 E Main St",
+        "city": "Frisco",
+        "postalCode": "80443",
+        "region": "CO",
+        "country": "US",
+        "countryName": "United States"
+    },
+    "location": {
+        "longitude": 39.5783084,
+        "latitude": -106.1121851
+    },
+    "websiteUrl": "http://www.hotelfrisco.com/",
+    "images": "https://images.unsplash.com/photo-1630404356140-3825a5f74992?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+    "phoneNumbers": [
+        "+19702938787"
+    ]
+  },
+  {
+    "name": "Keystone Lodge and Spa",
+    "starRating": 4.5,
+    "description": {
+        "short": "This fictional example hotel 3"
+    },
+    "address": {
+        "line1": "22101 US-6",
+        "city": "Dillon",
+        "postalCode": "80435",
+        "region": "CO",
+        "country": "US",
+        "countryName": "United States"
+    },
+    "location": {
+        "longitude": 39.5866046,
+        "latitude": -106.1085932
+    },
+    "images": "https://images.unsplash.com/photo-1610865383566-6469eedeb76f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80",
+    "websiteUrl": "http://www.keystoneresort.com/plan-a-vacation/lodging/lodging-details.aspx?code=keystone-lodge-hotel",
+    "phoneNumbers": [
+        "+19704964500"
+    ]
   }
 ]
 

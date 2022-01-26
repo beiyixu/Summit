@@ -13,14 +13,14 @@ struct HotelView: View {
     @Binding var stars: Double
     @Binding var image: String
     @Binding var description: String
+    @Binding var width: CGFloat
+    @Binding var height: CGFloat
     
-    let screen: CGRect = UIScreen.main.bounds
     
     
     var body: some View {
         
-        let width = screen.width * 0.95
-        let height = screen.width * 0.9 + 100
+       
         
         ZStack {
             AsyncImage(url: URL(string: image)) { imageData in
@@ -31,13 +31,13 @@ struct HotelView: View {
             
             VStack {
                 VStack(spacing:10){
-                    Text(hotelName).frame(width: width, height: 100,alignment: .leading).foregroundColor(.white).font(.system(size:40).weight(.bold)).offset(x: 10, y: 10)
+                    Text(hotelName).frame(width: width, height: height * 0.15,alignment: .leading).foregroundColor(.white).font(.system(size:25).weight(.bold)).offset(x: 10, y: 10).minimumScaleFactor(0.2)
                     HStack {
                         StarsView(rating: Float(stars))
                         Text(String(stars)).foregroundColor(.white).frame(width: 50, alignment: .leading).offset(x:10)
                         Spacer()
-                    }.frame(alignment: .leading).offset(x:10)
-                    Text("Description").foregroundColor(.white).frame(width: width, alignment: .leading).offset(x:10)
+                    }.frame(height: height * 0.05, alignment: .leading).offset(x:10)
+                    Text(description).foregroundColor(.white).frame(width: width, height: height * 0.15,alignment: .topLeading).offset(x:10).font(.system(size: 17)).minimumScaleFactor(0.1)
                 }.frame(width: width, height: height * 0.4, alignment: .topLeading).background(.black.opacity(0.7))
                 Spacer()
             }
@@ -50,8 +50,10 @@ struct HotelView_Previews: PreviewProvider {
     @State static var stars = 5.0
     @State static var image = "https://www.skitds.com/images/ire/ff_vTMLCMR1.jpg"
     @State static var description = "This is a nice lodge"
+    @State static var width = UIScreen.main.bounds.width * 0.95
+    @State static var height = UIScreen.main.bounds.width * 0.9 + 100
     static var previews: some View {
-        HotelView(hotelName: $hotelName, stars: $stars, image: $image, description: $description)
+        HotelView(hotelName: $hotelName, stars: $stars, image: $image, description: $description, width: $width, height: $height)
             .previewDevice("iPhone 13 Pro")
     }
 }

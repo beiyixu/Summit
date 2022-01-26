@@ -12,14 +12,14 @@ struct Logo: View {
     var body: some View {
         HStack(alignment: .center, spacing: 10) {
             HStack {
-                Text("S").font(.system(size: 50)).foregroundColor(.white).font(.headline)
-            Text("U").font(.system(size: 50)).foregroundColor(.white).font(.headline)
-            Image("mountainHeavy").resizable().frame(width: 80, height: 50, alignment: .center).symbolRenderingMode(.monochrome)
+                Text("S").font(.system(size: 20)).foregroundColor(.black).font(.headline)
+            Text("U").font(.system(size: 20)).foregroundColor(.black).font(.headline)
+            Image("mountainHeavyDark").resizable().frame(width: 50, height: 30, alignment: .center).symbolRenderingMode(.monochrome)
             }.padding(1)
             HStack {
-            Image("mountainHeavy").resizable().frame(width: 80, height: 50, alignment: .center).symbolRenderingMode(.monochrome)
-            Text("I").font(.system(size: 50)).foregroundColor(.white).font(.headline)
-            Text("T").font(.system(size: 50)).foregroundColor(.white).font(.headline)
+            Image("mountainHeavyDark").resizable().frame(width: 50, height: 30, alignment: .center).symbolRenderingMode(.monochrome)
+            Text("I").font(.system(size: 20)).foregroundColor(.black).font(.headline)
+            Text("T").font(.system(size: 20)).foregroundColor(.black).font(.headline)
             }.padding(1)
         }.ignoresSafeArea().padding()
     }

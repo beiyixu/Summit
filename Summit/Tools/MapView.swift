@@ -20,6 +20,7 @@ struct MapView: UIViewRepresentable {
       let region = MKCoordinateRegion(center: coordinate, span: span)
       view.setRegion(region, animated: true)
         view.mapType = .hybrid
+        view.isUserInteractionEnabled = false
         
     }
 }

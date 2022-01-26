@@ -14,6 +14,8 @@
 		0619407427572C8C001AED69 /* SummitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0619407327572C8C001AED69 /* SummitTests.swift */; };
 		0619407E27572C8C001AED69 /* SummitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0619407D27572C8C001AED69 /* SummitUITests.swift */; };
 		0619408027572C8C001AED69 /* SummitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0619407F27572C8C001AED69 /* SummitUITestsLaunchTests.swift */; };
+		0622C01027A1033800FFA2FA /* NavigationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622C00F27A1033800FFA2FA /* NavigationHeader.swift */; };
+		0622C01227A108CB00FFA2FA /* MapHotelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622C01127A108CB00FFA2FA /* MapHotelView.swift */; };
 		0629D59E2761922200135C4C /* Hotels.json in Resources */ = {isa = PBXBuildFile; fileRef = 0629D59D2761922200135C4C /* Hotels.json */; };
 		0629D5A02761924E00135C4C /* HotelDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629D59F2761924E00135C4C /* HotelDecoder.swift */; };
 		0629D5A22761940300135C4C /* HotelContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629D5A12761940300135C4C /* HotelContent.swift */; };
@@ -56,6 +58,8 @@
 		0619407927572C8C001AED69 /* SummitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0619407D27572C8C001AED69 /* SummitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummitUITests.swift; sourceTree = "<group>"; };
 		0619407F27572C8C001AED69 /* SummitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0622C00F27A1033800FFA2FA /* NavigationHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHeader.swift; sourceTree = "<group>"; };
+		0622C01127A108CB00FFA2FA /* MapHotelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapHotelView.swift; sourceTree = "<group>"; };
 		0629D59D2761922200135C4C /* Hotels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Hotels.json; path = ../../../../Users/beiyixu/Desktop/Summit/Summit/JSON/Hotels.json; sourceTree = DEVELOPER_DIR; };
 		0629D59F2761924E00135C4C /* HotelDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HotelDecoder.swift; path = ../../../../Users/beiyixu/Desktop/Summit/Summit/Tools/HotelDecoder.swift; sourceTree = DEVELOPER_DIR; };
 		0629D5A12761940300135C4C /* HotelContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelContent.swift; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 				0629D5A12761940300135C4C /* HotelContent.swift */,
 				06EEB12427619D98007E926D /* HotelView.swift */,
 				06DF4DFF275829960044595F /* SummitScreen.swift */,
+				0622C00F27A1033800FFA2FA /* NavigationHeader.swift */,
+				0622C01127A108CB00FFA2FA /* MapHotelView.swift */,
 				06DF4DFC275819240044595F /* Tools */,
 				0629D59C2761920E00135C4C /* JSON */,
 				0619406627572C8C001AED69 /* Assets.xcassets */,
@@ -312,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0622C01227A108CB00FFA2FA /* MapHotelView.swift in Sources */,
 				0619406527572C89001AED69 /* ContentView.swift in Sources */,
 				0629D5A02761924E00135C4C /* HotelDecoder.swift in Sources */,
 				06DF4E08275882200044595F /* MountainLogo.swift in Sources */,
@@ -322,6 +329,7 @@
 				06DF4E00275829960044595F /* SummitScreen.swift in Sources */,
 				06DF4DFE275819390044595F /* Logo.swift in Sources */,
 				06C560262761B1FB00995E66 /* Stars.swift in Sources */,
+				0622C01027A1033800FFA2FA /* NavigationHeader.swift in Sources */,
 				06EE681C2759C4C70002E8B3 /* MapView.swift in Sources */,
 				0619406327572C89001AED69 /* SummitApp.swift in Sources */,
 				0629D5A22761940300135C4C /* HotelContent.swift in Sources */,
