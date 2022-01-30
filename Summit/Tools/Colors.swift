@@ -12,8 +12,8 @@ extension UIColor {
             return self.hexColor(003399, alpha: 1)
         }
 
-        class var cheese:UIColor{
-            return self.init(red:0.67,green:0.0,blue:0.0,alpha: 1.0)
+        class var offWhite:UIColor{
+            return self.init(red:0.95,green:0.95,blue:0.95,alpha: 1.0)
         }
 
         class var crust:UIColor{

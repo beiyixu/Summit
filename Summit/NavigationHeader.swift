@@ -24,7 +24,7 @@ struct NavigationHeader: View {
              .padding(.horizontal, 30)
              .background(Color.black)
 
-        }.padding()
+        }.padding(5).background(Color(uiColor: .offWhite)).cornerRadius(10, corners: [.bottomLeft, .bottomRight])
     }
 }
 

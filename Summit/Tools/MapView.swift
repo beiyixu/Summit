@@ -10,6 +10,7 @@ import MapKit
 
 struct MapView: UIViewRepresentable {
     var coordinate: CLLocationCoordinate2D
+    var userInteraction: Bool
     
     func makeUIView(context: Context) -> MKMapView {
       MKMapView(frame: .zero)
@@ -20,14 +21,14 @@ struct MapView: UIViewRepresentable {
       let region = MKCoordinateRegion(center: coordinate, span: span)
       view.setRegion(region, animated: true)
         view.mapType = .hybrid
-        view.isUserInteractionEnabled = false
+        view.isUserInteractionEnabled = userInteraction
         
     }
 }
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(coordinate: CLLocationCoordinate2DMake(39.5029861, -106.1557894))
+        MapView(coordinate: CLLocationCoordinate2DMake(39.5029861, -106.1557894), userInteraction: true)
             .edgesIgnoringSafeArea(.all).previewDevice("IPhone 13")
     }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06065B1727A7481900C0B70A /* EmbededMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06065B1627A7481900C0B70A /* EmbededMap.swift */; };
+		06065B1927A74E4C00C0B70A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06065B1827A74E4C00C0B70A /* Extensions.swift */; };
 		0619406327572C89001AED69 /* SummitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0619406227572C89001AED69 /* SummitApp.swift */; };
 		0619406527572C89001AED69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0619406427572C89001AED69 /* ContentView.swift */; };
 		0619406727572C8C001AED69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0619406627572C8C001AED69 /* Assets.xcassets */; };
@@ -48,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06065B1627A7481900C0B70A /* EmbededMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbededMap.swift; sourceTree = "<group>"; };
+		06065B1827A74E4C00C0B70A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0619405F27572C89001AED69 /* Summit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Summit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0619406227572C89001AED69 /* SummitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummitApp.swift; sourceTree = "<group>"; };
 		0619406427572C89001AED69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,6 +134,7 @@
 				06DF4DFF275829960044595F /* SummitScreen.swift */,
 				0622C00F27A1033800FFA2FA /* NavigationHeader.swift */,
 				0622C01127A108CB00FFA2FA /* MapHotelView.swift */,
+				06065B1627A7481900C0B70A /* EmbededMap.swift */,
 				06DF4DFC275819240044595F /* Tools */,
 				0629D59C2761920E00135C4C /* JSON */,
 				0619406627572C8C001AED69 /* Assets.xcassets */,
@@ -183,6 +188,7 @@
 				06EE681B2759C4C70002E8B3 /* MapView.swift */,
 				0629D59F2761924E00135C4C /* HotelDecoder.swift */,
 				06C560252761B1FB00995E66 /* Stars.swift */,
+				06065B1827A74E4C00C0B70A /* Extensions.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -332,7 +338,9 @@
 				0622C01027A1033800FFA2FA /* NavigationHeader.swift in Sources */,
 				06EE681C2759C4C70002E8B3 /* MapView.swift in Sources */,
 				0619406327572C89001AED69 /* SummitApp.swift in Sources */,
+				06065B1927A74E4C00C0B70A /* Extensions.swift in Sources */,
 				0629D5A22761940300135C4C /* HotelContent.swift in Sources */,
+				06065B1727A7481900C0B70A /* EmbededMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +499,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_ASSET_PATHS = "\"Summit/Preview Content\"";
 				DEVELOPMENT_TEAM = KBWVP7PS8A;
 				ENABLE_PREVIEWS = YES;
@@ -521,7 +529,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_ASSET_PATHS = "\"Summit/Preview Content\"";
 				DEVELOPMENT_TEAM = KBWVP7PS8A;
 				ENABLE_PREVIEWS = YES;

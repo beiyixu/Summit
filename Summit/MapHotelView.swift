@@ -15,7 +15,7 @@ struct MapHotelView: View {
     var body: some View {
         ZStack{
             
-            MapView(coordinate: CLLocationCoordinate2DMake(39.5029861, -106.1557894))
+            MapView(coordinate: CLLocationCoordinate2DMake(39.5029861, -106.1557894), userInteraction: false)
             VStack {
                 Spacer()
                     VStack {

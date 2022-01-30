@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import MapKit
 
 struct ContentView: View {
     
@@ -14,7 +13,12 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-        HotelContent()
+            
+            NavigationView {
+                HotelContent()
+                    .navigationBarHidden(true)
+
+            }
         SummitScreen().opacity(showSplash ? 1 : 0)
                 .onAppear {
                     DispatchQueue.main.asyncAfter(deadline: .now() + 5.5) {
@@ -24,7 +28,7 @@ struct ContentView: View {
                     }
                   }
               }
-        }
+        }.background(.white)
     }
 }
 
@@ -33,8 +37,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
             .previewDevice("iPhone 13 Pro")
     }
-}
-
-extension ContentView {
-    
 }
